@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Onliner SushiVesla">
+    <test name="SushiVesla Products">
+        <classes>
+            <class name="by.it_academy.homework8.OnlinerSushiVeslaProductTest"/>
+        </classes>
+    </test>
+    <test name="SushiVesla Products By Filter">
+        <classes>
+            <class name="by.it_academy.homework8.OnlinerSushiVeslaFilterTest"/>
+        </classes>
+    </test>
+</suite>
